@@ -12,6 +12,17 @@ p{
 font-family:Arial, Helvetica, sans-serif;
 
 }
+.center-logo{
+   
+    
+    text-align:center;
+    padding:50px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+.center-logo span{
+    display:inline-block;
+}
 .heading-green 
 {
      color:green;
@@ -184,10 +195,22 @@ p
     cursor: pointer;
     transition: 0.5s;
 }
-#mission h2{
+#mission hr{
+    
+    /* width:100px; */
     border-bottom: 2px solid green;
-   
+    margin-left:0px;
+    margin-top:0px;
+    line-height:0;
+    
 }
+/* #mission h2{
+   
+    
+    border-bottom: 2px solid grey;
+    margin-left:0px;
+    
+} */
 
 #mission h5{
 color:royalblue;
@@ -256,7 +279,5 @@ font-weight: bold;
     .fa:hover {
         opacity: 0.7;
       }
-      .useful-links{
-          border-bottom:2px solid #427900;
-      }
+      
     
